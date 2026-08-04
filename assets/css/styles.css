@@ -97,9 +97,9 @@ p { margin: 0 0 1rem; }
 .lede { max-width: 760px; font-size: clamp(1.05rem, 2vw, 1.3rem); }
 
 .hero { padding: 2rem 0 4rem; }
-.hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 2rem; align-items: center; }
-.hero-copy { padding: 2rem 0; }
-.hero-media { border: 8px solid var(--ink); border-radius: 1.25rem; overflow: hidden; box-shadow: var(--shadow); background: var(--ink); }
+.hero-grid { display: flex; gap: 2rem; align-items: center; }
+.hero-copy { padding: 2rem 0; flex: 1; }
+.hero-media { border: 8px solid var(--ink); border-radius: 1.25rem; overflow: hidden; box-shadow: var(--shadow); background: var(--ink); flex: 1; }
 .hero-media img, .hero-media video { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 
 .actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.5rem; }
@@ -161,7 +161,8 @@ p { margin: 0 0 1rem; }
   .site-nav.is-open { display: block; }
   .site-nav ul { flex-direction: column; }
   .brand span { display: none; }
-  .hero-grid, .split { grid-template-columns: 1fr; }
+  .hero-grid { flex-direction: column-reverse; }
+  .split { grid-template-columns: 1fr; }
   .hero-copy { padding-top: 1rem; }
   .card-grid { grid-template-columns: 1fr; }
   .flavor-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
