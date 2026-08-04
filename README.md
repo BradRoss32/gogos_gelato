@@ -1,12 +1,14 @@
 # GoGo's Italian Gelato
 
-A responsive multi-page business website developed using HTML5, CSS3, and JavaScript.
+A responsive multi-page business website built using HTML5, CSS3, and JavaScript.
+
+## Live Website
+
+🌐 **Live Site:** https://bradross32.github.io/gogos-gelato/
 
 ## Overview
 
-This project was created to provide GoGo's Italian Gelato with a clean and organized website that presents its business information, flavors, brunch events, and branding.
-
-The website uses reusable layouts, responsive navigation, and an organized project structure to provide a consistent experience across desktop, tablet, and mobile devices.
+GoGo's Italian Gelato is a responsive business website created to showcase the business, its menu, brunch events, and location. The project demonstrates responsive web design, organized project structure, and clean front-end development.
 
 ## Technologies Used
 
@@ -18,37 +20,39 @@ The website uses reusable layouts, responsive navigation, and an organized proje
 
 ## Features
 
-- Responsive multi-page design
-- Reusable navigation and page layouts
-- Mobile-friendly navigation
-- Organized file and asset structure
-- Accessibility improvements
-- Custom business content and branding
-- Updated 2026 brunch and event information
+- Responsive multi-page website
+- Mobile-friendly layout
+- Reusable navigation
+- Organized file structure
+- Custom branding
+- Updated 2026 business information
 
-## Pages
+## Screenshots
 
-- Home
-- About
-- Flavors
-- Brunch and Events
+### Home
 
-## Running the Project Locally
+![Home](screenshots/home-page.png)
 
-1. Download or clone the repository.
-2. Open the project folder.
-3. Open `index.html` in a web browser.
+### About
 
-No additional installation or build process is required.
+![About](screenshots/about-page.png)
+
+### Flavors
+
+![Flavors](screenshots/flavors-page.png)
+
+### Brunch & Events
+
+![Brunch](screenshots/brunch-page.png)
 
 ## Future Improvements
 
-- Interactive flavor filtering
-- Contact or inquiry form
-- Online ordering integration
-- Additional performance and accessibility improvements
+- Contact form
+- Online ordering
+- Performance optimization
 
 ## Author
 
-Bradley Ross  
-Bachelor of Science in Digital Media & Web Technology
+**Bradley Ross**
+
+GitHub: https://github.com/BradRoss32
